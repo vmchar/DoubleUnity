@@ -5,6 +5,7 @@ Lauching an app simply causes Unity3D new instance start, no matter how much ins
 After creating new Unity3D instance app terminates iteself. 
 
 Checked with Unity3D version 2017.1.2p3 but should work with any other version as it's just a bash script wrapper.
+Double Unity will run on Mac OS X 10.9 and higher. If you want to launch it on earlier os versions check the sources and rewrite the code in Objective-C language (10.9 just becuse it's written in Swift).
 
 If you have troubles with the app (app crushes or doesn't start new Unity3d instance) try to do the following steps:
   -- open Terminal
